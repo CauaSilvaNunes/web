@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap';
+
+* {
+    margin-left: 4vh;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+html {
+    background: linear-gradient(black, rgb(26, 1, 163)) fixed;
+    height: 100vh;
+}
+
+h1 {
+    margin: 6vh;
+    background-position: center;
+    border-bottom: 0.1vh solid white;
+    margin-bottom: 5vh;
+}
+
+p {
+    margin: 2vh;
+    border-left: 0.5vh solid white;
+    margin-bottom: 4vh;
+    /*outline: 3px solid red;*/
+}
+
+li {
+    margin: 0vh;
+    border: 0px solid;
+    padding: none;
+    margin: 0.5vh;
+}
+
+table {
+    margin: 2.5vh;
+    border: 0.1vh solid white;
+    margin-top: 3vh;
+}
+source {
+    border: 0.2vh solid white;
+    height: 3vh;
+    width: 1vh;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+
+}
+.box {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 8px;
+}
+
+.blue {
+  background-color: blue;
+  position:absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.red {
+    background-color: rgb(1, 1, 167);
+    position:absolute;
+    top: 15px;
+  left: 15px;
+}
+
+.green {
+    background-color: rgb(2, 2, 94);
+    position:absolute;
+    top: 5px;
+    left: 5px;
+}

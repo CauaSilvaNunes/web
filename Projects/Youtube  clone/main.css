@@ -1,0 +1,10 @@
+.thumbnail {
+    height: 202px;
+    width: 360px;
+    border-radius: 10px;
+}
+
+.search-bar {
+    font-size: 20px;
+    margin-left: 12px;
+}

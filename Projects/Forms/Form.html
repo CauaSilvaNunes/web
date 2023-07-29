@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+    <a>
+        <header>
+
+
+            <div class="conteiner">
+                <h1>Shisui</h1>
+                <h4>
+                    <a href="https://www.google.com/" target="_black" style="text-decoration:none"> google </a>
+                    <a href="cauadasilva555@gmail.com" target="_black" style="text-decoration:none">Email </a>
+                    <a href="63 992112233" target="_black" style="text-decoration:none">Telefone </a>
+                </h4>
+            </div>
+        </header>
+        <main>
+            <form action="">
+                <fieldset>
+                    <legend>Contato</legend>
+                    <label for="Name">Nome</label>
+                    <br>
+                    <input required id="Name" type="text" required placeholder="Digite o seu nome">
+                    <button type="submit">Enviar</button>
+                    <br>
+                    <br>
+
+                    <label for="Email">Email</label>
+                    <br>
+                    <input required id="Email" type="email" required patern="[0-9a-zA-A]{}"
+                        placeholder="Digite o seu email">
+                    <button type="submit">Enviar</button>
+
+                    <br>
+                    <br>
+                    <label min="8" for="password">Senha</label>
+                    <br>
+                    <input required id="password" type="password" required patern="[0-9a-zA-A]{}"
+                        placeholder="Digite a sua senha">
+                    <button type="submit">Enviar</button>
+
+                    <br>
+                    <br>
+                    <label for="Mensagem">Mensagem</label><br>
+                    <textarea id="Mensagem" name="Mensagem" rows="8" cols="80" required
+                        placeholder="Digite a sua mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+
+                    <br>
+                    <br>
+                    Você aceita receber notificações?
+                    <br>
+                    <label for="yep">Sim</label>
+                    <input type="radio" id="yep" name=" coffee" value=" yes">
+
+                    <label for="yep">Não</label>
+                    <input checked type="radio" id="nono" name=" coffee" value="no">
+
+                    <br>
+                    <br>
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms">Você declara que possui +18 anos e concorda com os termos e condições.</label>
+                </fieldset>
+
+            </form>
+
+        </main>
+
+        <footer>Porto Nacional 26/11/2022</footer>
+
+    </a>
+</body>
+
+</html>

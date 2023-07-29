@@ -1,0 +1,71 @@
+@import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap';
+
+* {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: transparent;
+
+}
+
+html {
+    background: linear-gradient(black, rgba(255, 0, 0)) fixed;
+    height: 100vh;
+}
+
+body {
+    Margin: 7vh;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main main "
+        "footer footer";
+
+    grid-template-rows: 0.2fr 20fr 0.4fr;
+    grid-template-columns: 1fr;
+
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+main {
+    grid-area: main;
+}
+
+form{
+    height: 100vh;
+}
+
+
+footer {
+    grid-area: footer;
+    text-align: center;
+
+}
+
+
+.conteiner {
+    padding-bottom: 0.2vh;
+    margin: none;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    
+}
+
+h1{
+    margin-bottom: 0vh;
+    letter-spacing: 0.5vh;
+}
+h4{
+    letter-spacing: 0.5vh;
+    word-spacing: 4vh;
+    
+}
