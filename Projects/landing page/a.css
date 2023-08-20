@@ -1,0 +1,99 @@
+@import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap';
+
+html{
+  box-sizing: border-box;
+  color:black;
+  flex-direction: column;
+  margin-left: 5vh;
+}
+.container {
+  display: flex;
+  justify-content: space-between;  /* Alinha as caixas com espaço entre elas */
+  width: 95%;
+  margin: 2%;
+  font-size: 3vh;
+  height: 4vh;
+  padding-top: 1vh;
+}
+
+.boxtop1 {
+  background-color: white;
+  box-sizing: border-box;
+  
+}
+
+.box {
+  display: flex;
+  background-color: white;
+  width: 105vh;
+  box-sizing: border-box;
+  padding-right: 20vh;
+  font-size: 2.5vh;
+}
+.boxtop2 {
+  display: flex;
+  width: 200vh;
+  height: 9vh;
+  background-color: rgb(0, 153, 255);
+  box-sizing: border-box;
+  margin-left: -5.4vh;
+}
+
+.iconelupa{
+  
+  height: 2vh;
+  background-image: red;
+}
+.iconecarta{
+  
+  height: 3.5vh;
+  background-image: red;
+}
+.boxes {
+  margin-top: 0.5vh;
+  width: 20%;
+  background-color: white;
+  box-sizing: border-box;
+  
+}
+.boxeslupa {
+  margin-top: 0.5vh;
+  width: 20%;
+  background-color: white;
+  box-sizing: border-box;
+  padding-left: 5vh;
+  
+}
+
+.boxlogin {
+  font-size: 2.5vh;
+  display: flex;
+  width: 30%;
+  background-color: white;
+  box-sizing: border-box;
+  padding-left: 5vh;
+  
+}
+.loginin {
+  font-size: 2.5vh;
+  display: flex;
+  width: 30%;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 1vh;
+  margin-right: 0vh;
+  
+}
+
+
+.btnsignup {
+  background-color: rgb(30, 84, 235);
+  height: 5vh;
+  width: 20vh;
+  border:none;
+  border-radius: 3vh;
+  margin-left: 4vh;
+  cursor: pointer;
+  margin-left: 0vh;
+  
+}
