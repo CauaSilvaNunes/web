@@ -1,16 +1,19 @@
 @import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap';
 
-html{
+html {
   box-sizing: border-box;
-  color:black;
+  color: black;
   flex-direction: column;
   margin-left: 5vh;
 }
+
 .container {
   display: flex;
-  justify-content: space-between;  /* Alinha as caixas com espaço entre elas */
+  justify-content: space-between;
+  /* Alinha as caixas com espaço entre elas */
   width: 95%;
   margin: 2%;
+  margin-top: 1vh;
   font-size: 3vh;
   height: 4vh;
   padding-top: 1vh;
@@ -19,7 +22,7 @@ html{
 .boxtop1 {
   background-color: white;
   box-sizing: border-box;
-  
+
 }
 
 .box {
@@ -30,6 +33,7 @@ html{
   padding-right: 20vh;
   font-size: 2.5vh;
 }
+
 .boxtop2 {
   display: flex;
   width: 200vh;
@@ -39,30 +43,42 @@ html{
   margin-left: -5.4vh;
 }
 
-.iconelupa{
-  
+.iconelupa {
+
   height: 2vh;
   background-image: red;
 }
-.iconecarta{
-  
+
+.iconecarta {
+
   height: 3.5vh;
   background-image: red;
 }
+
 .boxes {
   margin-top: 0.5vh;
   width: 20%;
   background-color: white;
   box-sizing: border-box;
-  
+
 }
+
 .boxeslupa {
   margin-top: 0.5vh;
   width: 20%;
   background-color: white;
   box-sizing: border-box;
   padding-left: 5vh;
-  
+
+}
+
+.iconeai {
+  margin-top: 0.5vh;
+  background-color: rgba(247, 14, 14, 0);
+  box-sizing: border-box;
+  padding-left: 2vh;
+  padding-right: 4vh;
+
 }
 
 .boxlogin {
@@ -72,28 +88,71 @@ html{
   background-color: white;
   box-sizing: border-box;
   padding-left: 5vh;
-  
+
 }
+
 .loginin {
   font-size: 2.5vh;
   display: flex;
-  width: 30%;
+  width: 25%;
   background-color: white;
   box-sizing: border-box;
   padding-top: 1vh;
   margin-right: 0vh;
-  
+  margin-left: 15vh;
+
 }
 
 
 .btnsignup {
   background-color: rgb(30, 84, 235);
   height: 5vh;
-  width: 20vh;
-  border:none;
+  width: 15vh;
+  border: none;
   border-radius: 3vh;
   margin-left: 4vh;
   cursor: pointer;
   margin-left: 0vh;
-  
+
+}
+
+.btnsignup:active{
+  background-color: black;
+  color: rgb(30, 84, 235);
+}
+
+.ia {
+  margin-top: 1.5vh;
+  width: 31vh;
+}
+
+.aitext2 {
+  background-color: yellow;
+  font-size: 3.5vh;
+}
+
+.aitext3 {
+  padding-left: 4vh;
+  padding-top: 3vh;
+  font-size: 2.5vh;
+}
+
+.btnai {
+  font-size: 1.5vh;
+  background-color: yellow;
+  border: none;
+  border-radius: 3vh;
+  cursor: pointer;
+  height: 5vh;
+  margin-top: 2vh;
+  margin-left: 25vh;
+  width: 17vh;
+  transition: opacity 1s, box-shadow 1s, width 1s, ;
+}
+
+
+
+.btnai:active{
+  background-color: black;
+  color: yellow;
 }
