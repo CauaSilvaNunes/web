@@ -1,10 +1,63 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .thumbnail {
-    height: 202px;
-    width: 360px;
-    border-radius: 10px;
+    width: 300px;
+    display: block;
+    /* Faz com que a imagem ocuoe a linha toda */
+
+}
+
+.video-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-weight: 700;
+    line-height: 20px;
 }
 
 .search-bar {
-    font-size: 20px;
-    margin-left: 12px;
+    display: block;
+}
+
+.video-preview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.channel-picture {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+}
+
+.video-info {
+    display: inline-block;
+    width: 245px;
+}
+
+.profile-picture {
+    width: 40px;
+    border-radius: 30px;
+}
+
+.thumbnail-row {
+    margin-bottom: 12px;
+}
+
+.video-author,
+.video-stats {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 4px;
+}
+
+.video-author {
+    margin-bottom: 4px;
 }
