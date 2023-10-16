@@ -5,8 +5,7 @@ p {
 }
 
 .thumbnail {
-    width: 300px;
-    display: block;
+    width: 100%;
     /* Faz com que a imagem ocuoe a linha toda */
 
 }
@@ -24,27 +23,15 @@ p {
     display: block;
 }
 
-.video-preview {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-}
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 
-.channel-picture {
-    display: inline-block;
-    vertical-align: top;
-    width: 50px;
-}
-
-.video-info {
-    display: inline-block;
-    width: 245px;
 }
 
 .profile-picture {
     width: 40px;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
 .thumbnail-row {
@@ -60,4 +47,10 @@ p {
 
 .video-author {
     margin-bottom: 4px;
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 16px;;
 }
