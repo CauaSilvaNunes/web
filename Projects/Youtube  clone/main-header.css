@@ -1,0 +1,35 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.left-section {
+    background-color: aqua;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.hamburguer-menu{
+    height:40px;
+    margin-left:30px;
+    margin-right:20px;
+}
+
+.youtube-logo{
+    height:60px;
+}
+
+.middle-section {
+    background-color: yellow;
+    flex:1;
+    margin-left: 80px;
+    margin-right: 40px;
+    max-width: 700px;
+}
+.right-section {
+    background-color: green;
+    width: 250px;
+}
