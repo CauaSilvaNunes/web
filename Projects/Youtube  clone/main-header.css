@@ -1,9 +1,19 @@
 .header {
     height: 55px;
-    margin-bottom: 3vh;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+
+    top:0;
+    left:0;
+    right:0;
+    
+    
+    background-color: white;
+    border-bottom: solid 1px rgb(218, 216, 216);
+    
 }
 
 .left-section {
@@ -19,7 +29,7 @@
 }
 
 .youtube-logo {
-    height: 60px;
+    height: 55px;
 
 }
 
@@ -33,17 +43,19 @@
 
 .middle-section {
     flex: 1;
-    margin-left: 210px;
-    margin-right: 40px;
+    margin-left: 270px;
+    margin-right: 240px;
     max-width: 700px;
     display: flex;
     align-items: center;
+    width: 0;
 
 }
 
 .search-bar {
+
     flex: 1;
-    height: 40px;
+    height: 35px;
     border-radius: 35px;
     padding-left: 18px;
     font-size: 16px;
@@ -76,7 +88,7 @@
 .mic-button {
     height: 30px;
     width: 30px;
-    border: 0px ;
+    border: 0px;
     background-color: rgba(165, 42, 42, 0);
 }
 
@@ -88,6 +100,26 @@
 }
 
 .right-section {
-    background-color: green;
-    width: 350px;
+    width: 160px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
 }
+
+.upload-icon {
+    height: 60px;
+    padding-bottom: 2px;
+}
+.notifications-icon {
+    height: 40px;
+    width: 10;
+    margin-right: 20px;
+}
+.user-picture {
+    height: 32px;
+    border-radius: 40px;
+    
+}
+

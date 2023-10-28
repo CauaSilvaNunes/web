@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <style>
+        html {
+            margin: 8vh;
+        }
+
+        td {
+            height: 20px;
+            width: 20px;
+        }
+
+        p {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <hr>
+    <center>
+        <font size="7" color="red">
+
+            Renato de Oliveira Bastos
+        </font>
+    </center>
+    <br>
+    <br>
+    <table border="2" width="520" align="center">
+
+        <tr> <!-- Cria uma nova linha -->
+            <td colspan="2" bgcolor="blue"> <!-- Cria uma nova coluna -->
+                <font size="4">
+                    <b>
+                        <center>
+
+                            Formulário de Cadastro
+                        </center>
+                    </b>
+                </font>
+            </td>
+        </tr>
+
+        <tr>
+            <td bgcolor="blue">
+                <p>
+                    Nome
+                </p>
+
+            </td>
+            <td bgcolor="lightblue"> 
+
+                <input type="text" id="" size="40">
+
+            </td>
+        </tr>
+
+        <tr>
+
+            <td bgcolor="blue">
+                <p>
+                    Foto
+                </p>
+
+            </td>
+            <td bgcolor="lightblue">
+                <img width="80"
+                    src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSxIa-M8cZYF1VWZyUd2k-FUF0nW8CCgftOcg0Lt_OjBX7F1yCj">
+            </td>
+        </tr>
+
+        <tr>
+
+            <td bgcolor="blue">
+                <p bgcolor="blue">
+
+                    Aniversário
+                </p>
+            </td>
+            <td bgcolor="lightblue">
+                <input type="date">
+            </td>
+        </tr>
+
+        <tr>
+            <td bgcolor="blue">
+                <p>
+
+                    Salário
+                </p>
+
+            </td>
+            <td bgcolor="lightblue">
+                <input maxlength="" type="number">
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="blue">
+                <p>
+
+                    Sexo
+                </p>
+
+            </td>
+            <td bgcolor="lightblue">
+                <input type="radio">Masculino
+                <input type="radio">Feminino
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="blue">
+                <p>
+
+                    Automóveis
+                </p>
+
+            </td>
+            <td bgcolor="lightblue">
+                <input type="checkbox">Camaro
+                <input type="checkbox">Fusca
+                <input type="checkbox">Gol
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="blue">
+                <p>
+
+                    Cidade
+                </p>
+
+            </td>
+            <td bgcolor="lightblue">
+
+                <SELECT name="cidades">
+                    <OPTION VALUE="">:: escolha a Cidade ::</OPTION>
+                    <OPTION VALUE="Paris">Paris</OPTION>
+                    <OPTION VALUE="Barcelona">Barcelona</OPTION>
+                    <OPTION VALUE="New York">New York</OPTION>
+                    <OPTION VALUE="Buenos Aires">Buenos Aires</OPTION>
+                </SELECT>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="blue">
+
+                <p>
+
+                    Observações
+                </p>
+
+            </td>
+            <td bgcolor="lightblue">
+                <textarea rows="7" cols="50" name=“observacao” placeholder="digite aqui.."></textarea>
+
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="blue">
+
+                <center>
+                    <input type="submit" value="Enviar dados">
+                    <input type="reset" value="Apagar dados">
+                    
+                </center>
+
+            </td>
+
+        </tr>
+    </table>
+</body>
+
+</html>
