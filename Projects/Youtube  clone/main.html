@@ -36,7 +36,6 @@
         <div class="middle-section">
             <input class="search-bar" type="text" placeholder="Pesquisar">
 
-
             <button class="search-button">
                 <img class="search-icon"
                     src="https://th.bing.com/th?id=OIP.DsA7YkrbgiOb0Skj0rXDPwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2">
@@ -65,10 +64,142 @@
     </div>
 
     <div class="sidebar">
-        sidebar
+        <div class="standard-column">
+
+            <div class="sidebar-link">
+                <img class="inicio-img"
+                    src="data:image/png;base64,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">
+                Inicio
+            </div>
+
+            <div class="sidebar-link">
+                <img class="shorts-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQxy8t-KvLTfCTqjX8oMvWSpupma6tkYlraM0T8PErE4V7Ucksh">
+                Shorts
+            </div>
+
+            <div class="sidebar-link">
+                <img class="inscrições-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSw7DOhI11q8M13FthoPtO8kZzNs5uCPzTR0sgbeuJE9NXCcJDX">
+                Inscrições
+            </div>
+
+        </div>
+        <div class="you-column">
+
+            <div class="sidebar-link">
+                <img class="seu-canal-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR42PPT1lDnAGepK_VheZs3M35jHPf4EvvrHljFeik8V7OCoBbB">
+                Canal
+            </div>
+
+            <div class="sidebar-link">
+                <img class="assistir-mais-tarde-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQc3u73EeD3bKuyFpCIjoS8ZjkTpjIxv9iZfAnDvOKiYZh2XO7Y">
+                Assistir mais tarde
+            </div>
+
+            <div class="sidebar-link neon-border">
+                <img class="seus-videos-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpwAEejyh1SolC83Ti0kCoFIH5RR8qFrQp8APXurtQv79I8YPB">
+                Seus videos
+            </div>
+        </div>
+        <div class="subscribe-column">
+
+            <div class="sidebar-link">
+                <img class="seu-canal-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR42PPT1lDnAGepK_VheZs3M35jHPf4EvvrHljFeik8V7OCoBbB">
+                Canal 1
+            </div>
+
+            <div class="sidebar-link">
+                <img class="assistir-mais-tarde-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQc3u73EeD3bKuyFpCIjoS8ZjkTpjIxv9iZfAnDvOKiYZh2XO7Y">
+                Canal 2
+            </div>
+
+            <div class="sidebar-link neon-border">
+                <img class="seus-videos-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpwAEejyh1SolC83Ti0kCoFIH5RR8qFrQp8APXurtQv79I8YPB">
+                Canal 3
+            </div>
+            <div class="sidebar-link">
+                <img class="seu-canal-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR42PPT1lDnAGepK_VheZs3M35jHPf4EvvrHljFeik8V7OCoBbB">
+                Canal 4
+            </div>
+
+            <div class="sidebar-link">
+                <img class="assistir-mais-tarde-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQc3u73EeD3bKuyFpCIjoS8ZjkTpjIxv9iZfAnDvOKiYZh2XO7Y">
+                Canal 1
+            </div>
+
+            <div class="sidebar-link neon-border">
+                <img class="seus-videos-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpwAEejyh1SolC83Ti0kCoFIH5RR8qFrQp8APXurtQv79I8YPB">
+                Canal 5
+            </div>
+            <div class="sidebar-link">
+                <img class="assistir-mais-tarde-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQc3u73EeD3bKuyFpCIjoS8ZjkTpjIxv9iZfAnDvOKiYZh2XO7Y">
+                Canal 1
+            </div>
+
+            <div class="sidebar-link neon-border">
+                <img class="seus-videos-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpwAEejyh1SolC83Ti0kCoFIH5RR8qFrQp8APXurtQv79I8YPB">
+                Canal 5
+            </div>
+            <div class="sidebar-link">
+                <img class="assistir-mais-tarde-img"
+                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQc3u73EeD3bKuyFpCIjoS8ZjkTpjIxv9iZfAnDvOKiYZh2XO7Y">
+                Canal 1
+            </div>
+
+            <div class="sidebar-link neon-border">
+                <img class="seus-videos-img"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpwAEejyh1SolC83Ti0kCoFIH5RR8qFrQp8APXurtQv79I8YPB">
+                Canal 5
+            </div>
+        </div>
 
     </div>
 
+    <div class="sug">
+        <div class="first-sug-box">
+            Tudo
+        </div>
+        <div class="sug-box">
+            Ciência da Computação
+        </div>
+        <div class="sug-box">
+            Podcast
+        </div>
+        <div class="sug-box">
+            Assistidos
+        </div>
+        <div class="sug-box">
+            Ao vivo
+        </div>
+        <div class="sug-box">
+            Mixes
+        </div>
+        <div class="sug-box">
+            Música
+        </div>
+        <div class="sug-box">
+            Jogos
+        </div>
+        <div class="sug-box">
+            ssssssss
+        </div>
+        <div class="sug-box">
+            ddddddddddddddddddddssssssss
+        </div>
+    </div>
+    
     <div class="video-grid">
         <div class="video-preview">
             <a
@@ -141,7 +272,7 @@
                 <a
                     href="https://www.youtube.com/watch?v=XKMAiKZVAD0&pp=ygU5IENvbnRhaW5lcnMgRGVidWc7IFB5dGhvbiBtZWxob3JhIG1zZyBkZSBlcnJvOyBBbmRyb2lkIDE0">
 
-                    Containers Debug; Python melhora msg de erro; Android 14
+                    20 anos Ruby on Rails; Novo Docker Debug; Python melhora msg de erro; Android 14; OpenPubkey #120
                 </a>
             </p>
 

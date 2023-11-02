@@ -1,8 +1,80 @@
 .sidebar {
     position: fixed;
-    left:0;
-    bottom:0;
-    top:22px;
+    left: 0;
+    bottom: 0;
+    top: 56px;
     background-color: white;
-    width: 102px;
+    color: black;
+    width: 27.5vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    z-index: 101;
+    padding-top: 1vh;
+    padding-left: 2.5vh;
+
+}
+
+.standard-column{
+    border-bottom: 1px grey solid;
+    padding-bottom: 10px ;
+}
+.you-column{
+    border-bottom: 1px grey solid;
+    padding: 10px 0px;
+}
+.subscribe-column{
+    border-bottom: 1px grey solid;
+    padding: 10px 0px;
+    height: 90vh;
+    overflow-y: hidden;
+}
+
+
+.sidebar-link {
+    height: 22px;
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+.sidebar-link:hover {
+	
+    transform: translate(-10px);
+}
+
+
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.neon-border {
+    position: relative;
+    overflow: hidden;
+}
+
+.sidebar-link:hover {
+    box-shadow: 0 0 5px #ff0000, 0 0 25px #ff0000, 0 0 50px #ff0000, 0 0 200px #ff0000;
+    transition: 0.5s;
+    background-color:rgb(236, 235, 235);
+}
+
+
+
+.inicio-img,
+.shorts-img,
+.inscrições-img,
+.assistir-mais-tarde-imgs,
+.seu-canal-img,
+.assistir-mais-tarde-img,
+.seus-videos-img
+ {
+    display: flex;
+    height: 35px;
+    width: 20px;
+    margin-right: 20px;
 }
