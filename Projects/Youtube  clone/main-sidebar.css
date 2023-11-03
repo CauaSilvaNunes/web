@@ -24,6 +24,10 @@
     margin-left: 0px;
     flex-wrap: wrap;
 }
+.sidebar-link-home{
+background-color: rgb(243, 243, 243);
+border-radius: 10px;
+}
 
 .sidebar-link:hover {
 
@@ -77,7 +81,6 @@
     height: 90vh;
     overflow-y: hidden;
     margin-left: -0.5vh;
-    margin-top: .5vh;
     font-size: 10px;
 }
 
