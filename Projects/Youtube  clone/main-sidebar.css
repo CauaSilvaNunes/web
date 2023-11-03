@@ -129,4 +129,9 @@ border-radius: 10px;
 
 .sidebar-subscribe-text {
     font-size: 15px;
+    width: 19vh;
+    height: 2.3vh;
+    overflow: hidden;
+    white-space: nowgap;
+    text-overflow: ellipsis;
 }
