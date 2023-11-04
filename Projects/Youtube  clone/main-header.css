@@ -13,6 +13,8 @@
     z-index: 100;
 
     margin-right: 20px;
+    position: fixed;
+    background-color: white;
 
 }
 
@@ -100,7 +102,8 @@
 
 .search-button:hover,
 .upload-icon:hover,
-.notifications-icon:hover{
+.notifications-icon:hover,
+.mic-img:hover{
     background-color: rgb(220, 220, 220);
 }
 
