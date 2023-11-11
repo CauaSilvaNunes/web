@@ -1,0 +1,147 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.area-login {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    height: 395px;
+    width: 300px;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input {
+    margin-top: 10px;
+    height: 35px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+
+.input-login {
+    color: rgb(0, 0, 0);
+    border: 1px solid gray;
+}
+
+.login img {
+    top: 10px;
+    width: 75px;
+    height: auto;
+}
+
+.top-login {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.conta {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.login::placeholder {
+    font-size: 14px;
+}
+
+.input-reset {
+    justify-content: center;
+    font-size: 13px;
+    width: 30%;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid blue;
+}
+
+.btn-login {
+    background-color: blue;
+    border-radius: 10px;
+    height: 35px;
+    display: FLEX;
+    justify-content: center;
+    font-size: 13px;
+    width: 30%;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0px;
+    margin-top: 10px;
+}
+
+.btn-login a {
+    color: #ffffff;
+    display: FLEX;
+    font-size: 13px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.input-reset {
+    background-color: #ffffff;
+    color: blue;
+}
+
+form p {
+    margin-top: 24px;
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+    align-items: end;
+    font-weight: 900;
+}
+
+a {
+    color: rgb(59, 59, 255);
+    text-decoration: none;
+    margin-left: 2px;
+    margin-top: 12px;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+.div-btn-submit {
+    margin-top: 30px;
+    display: FLEX;
+    justify-content: space-between;
+    border: 0px;
+
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+    width: 47vh;
+    justify-content: space-between;
+    height: 20px;
+
+}
+
+.info p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+
+}
