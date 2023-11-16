@@ -9,7 +9,6 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
     z-index: 101;
     padding-top: 1vh;
     padding-left: 2.5vh;
@@ -22,9 +21,9 @@
     height: 22px;
     display: flex;
     margin-left: 0px;
-    flex-wrap: wrap;
     align-items: center;
 }
+
 
 .sidebar-link-home {
     background-color: rgb(243, 243, 243);
@@ -32,22 +31,13 @@
 }
 
 .sidebar-link:hover {
-    transform: translate(-10px);
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
 }
 
 .sidebar-link {
-    display: flex;
-    align-items: center;
     padding: 10px;
     border-radius: 10px;
-}
-
-
-.sidebar-link:hover,
-.sidebar-you:hover {
-    box-shadow: 0 0 5px #ff0000, 0 0 25px #ff0000, 0 0 50px #ff0000, 0 0 200px #ff0000;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
 }
 
 .sidebar-img {
@@ -60,6 +50,7 @@
     border-bottom: 1px solid rgb(231, 231, 231);
     padding-bottom: 10px;
     margin-left: -0.5vh;
+    white-space: nowrap;
 }
 
 .you-column {
@@ -76,9 +67,9 @@
 .subscribe-column {
     border-bottom: 1px solid rgb(231, 231, 231);
     padding: 5px 0px;
-    height: 9000px;
     margin-left: -0.5vh;
     font-size: 10px;
+    white-space: nowrap;
 }
 
 .sidebar-profile-picture {
@@ -93,11 +84,7 @@
     font-size: 12px;
     color: rgb(96, 96, 96);
     margin-bottom: 4px;
-    display: flex;
     margin-left: 3vh;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
 
 .sidebar-channel,
@@ -123,6 +110,5 @@
     width: 19vh;
     height: 3vh;
     overflow: hidden;
-    white-space: nowgap;
     text-overflow: ellipsis;
 }
