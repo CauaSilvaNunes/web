@@ -10,14 +10,14 @@
     overflow-x: scroll;
 }
 
-.sug-box{
+.sug-box {
     background-color: rgb(239, 239, 239);
 }
 
 
 .sug-box-end {
     position: absolute;
-    right:2vh;
+    right: 2vh;
     background-color: white;
     box-shadow: -5px 10px 20px 30px white;
 
@@ -26,7 +26,9 @@
 .first-sug-box {
     background-color: rgb(0, 0, 0);
     color: white;
-    
+    margin-left: 18px;
+    ;
+
 }
 
 .sug-box,
@@ -53,16 +55,23 @@
     margin-left: 23vh;
 }
 
+.video-preview {
+    margin-bottom: 40px;
+}
+
 .thumbnail {
     width: 90%;
     border-radius: 10px;
-    
+
 }
 
 .video-title {
+    max-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
     margin-top: 0px;
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 5px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 20px;
     width: 85%;
@@ -71,13 +80,13 @@
 .video-info-grid {
     display: grid;
     grid-template-columns: 50px 1fr;
-    
+
 }
 
 .profile-picture {
     width: 40px;
     border-radius: 50px;
-    
+
 }
 
 .thumbnail-row {
@@ -87,18 +96,14 @@
 }
 
 .thumbnail:hover,
-.profile-picture:hover{
+.profile-picture:hover {
     cursor: pointer;
 }
 
 .video-author,
 .video-stats {
-    font-size: 13px;
+    font-size: 15px;
     color: rgb(96, 96, 96);
-    margin-bottom: 4px;
-}
-
-.video-author {
     margin-bottom: 4px;
 }
 
@@ -114,20 +119,39 @@
     right: 44px;
 }
 
+.contato {
+    height: 40px;
+    margin-left: 10vw;
+    margin-right: 0vw;
+    margin-top: -30px;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(223, 223, 223);
+
+}
+
 /* Estilo da barra de rolagem no Opera GX */
 ::-webkit-scrollbar {
-    width: 6px; 
-    height: 6px; 
+    width: 6px;
+    height: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ffffff; /* Cor da alça da barra de rolagem */
+    background: #ffffff;
+    /* Cor da alça da barra de rolagem */
     border-radius: 20px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #000000; 
+    background: #dedddd;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Cor de fundo da barra de rolagem */
+    background: #f1f1f1;
+    /* Cor de fundo da barra de rolagem */
 }

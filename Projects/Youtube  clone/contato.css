@@ -1,0 +1,113 @@
+body {
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+section {
+
+    align-items: center;
+    justify-content: center;
+}
+
+.interface {
+    display: flex;
+    
+    margin-left: 210px;
+    gap: 90px;
+
+}
+
+.topo-do-site {
+    padding: 110px 0%;
+    height: 100vh;
+    left: 10px;
+}
+
+.topo-do-site h1 {
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    line-height: 40px;
+
+    color: white;
+}
+
+img {
+    border-radius: 140px;
+}
+
+.txt-topo-site h1 span {
+    color: red;
+}
+
+p {
+    margin: 40px 0;
+}
+
+.btn-contato {
+
+    height: 60px;
+    margin-right: 0vw;
+    margin-top: -30px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    background-color: white;
+    border: 0px solid rgb(177, 177, 177);
+    border-radius: 10px;
+    padding: 4px 30px;
+    margin: 2px;
+}
+
+button:hover {
+    transition: 0.5s;
+    transform: translate(-10px);
+}
+
+.facebook {
+    background-color: #5e2df1;
+    color: white;
+}
+
+.facebook:hover {
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+    background-color: #4000ff;
+    color: white;
+}
+
+.instagram {
+    background-color: #ff0066;
+    color: white;
+}
+
+.instagram:hover {
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+    background-color: #b21212;
+    color: rgb(0, 0, 0);
+}
+
+.linkedin {
+    background-color: #42c2f8;
+    color: white;
+}
+
+.linkedin:hover {
+    box-shadow: 0 0 5px #00b3ff, 0 0 25px #00b3ff, 0 0 50px #00b3ff, 0 0 200px #00b3ff;
+    background-color: white;
+    color: #00b3ff;
+}
+
+.github {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.github:hover {
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 200px white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
